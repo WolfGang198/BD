@@ -1,0 +1,1 @@
+drop database cadastro;/*apagar o banco de dados celecionado*/
