@@ -1,0 +1,1 @@
+drop database cadastro;/*comando para apagar banco de cados*/
