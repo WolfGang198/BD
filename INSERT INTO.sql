@@ -1,13 +1,8 @@
-insert into pessoas values /*comando para inserir dados na tabela*/
-(default, 'Adalgisa', '1930-11-02', 'F', '63.2', '1.75', 'Irlanda');
+insert into pessoas
+(id, nome, nascimento, sexo, peso, altura, nacionalidade)
+values
+(default, 'Felipe', '1998-02-04', 'M', '60.5', '1.70', 'EUA'),
+(default, 'Raul', '2004-05-08', 'M', '54.2', '1.80', 'Brasil'),
+(default, 'Mada', '2003-07-13', 'F', '51.9', '1.65', 'Portugal');/*comando para inserir dados...*/
 
-select * from pessoas; /*comando para visualizar dadods da tabela*/
-
-
-
-insert into pessoas values /*comando para inserir multiplos dados na tabela*/
-(default, 'Ana', '1975-12-22', 'F', '52.3', '1.45', 'EUA'),
-(default, 'Pedro', '2000-07-15', 'M', '52.3', '1.45', 'Brasil'),
-(default, 'Maria', '1999-05-30', 'F', '75.9', '1.70', 'Portugal');
-
-select * from pessoas; /*comando para visualizar dadods da tabela*/
+select * from pessoas;/*comando para mostrar todos os dados inseridos...*/
